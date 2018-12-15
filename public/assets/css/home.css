@@ -39,12 +39,12 @@ div.start_exp{
 
 h1.main_title{
      margin-top: 20%;
-     font-size: 3.75rem;
+     font-size: 3.15rem;
      font-weight: 600;
 }
 
 h3.sub_title{
-     margin-top: 20px;
+     margin-top: 15px;
      font-size: 1.75rem;
      font-weight: 400;
 }
@@ -55,7 +55,7 @@ button.ba-start{
      margin-top: 120px;
      height: 40px;
      font-weight: 600;
-     width: 170px;
+     width: 140px;
      color: #fff;
      background: #56c6c6;
      border-radius: 20px;
