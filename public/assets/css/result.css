@@ -47,7 +47,8 @@ div.bottom-image .show-img-div{
      height: 80vh;
      background-repeat: no-repeat;
      background-size: 100%;
-     background-image:url(../../images/div_panorama/20181215_173901715.png);
+     background-image:url(../../images/marker_panorama/20181215_173901715.png);
+     
      background-position: center;
 }
 
@@ -57,7 +58,7 @@ div.bottom-image .show-img-div2{
      height: 80vh;
      background-repeat: no-repeat;
      background-size: 100%;
-     background-image:url(../../images/marker_panorama/20181215_173901715.png);
+     background-image:url(../../images/div_panorama/20181215_173901715.png);
      background-position: center;
 }
 
