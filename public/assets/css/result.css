@@ -1,0 +1,225 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+div.wrapper{
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     width: 100%;
+     background-color: black;
+}
+
+div.wrapper img{
+}
+
+.bottom-r-list{
+     width: 80%;
+     margin: auto;
+}
+
+img.logo{
+     float: left;
+     width: 140px;
+}
+p.logo_text{
+     padding: 0%;
+     margin: 22px 0px 0px -5px;
+     color: #828282;
+     float: left;
+     font-weight: 450;
+}
+
+main{
+     width: 100%;
+     height: 90vh;
+     /* position:relative;
+     background-repeat: no-repeat;
+     background-size: 989px;
+     background-image:url(../../images/div_panorama/20181215_173901715.png);
+     background-position: center;  */
+}
+
+div.bottom-image .show-img-div{
+     margin: auto;
+     width: 90%;
+     height: 80vh;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-image:url(../../images/div_panorama/20181215_173901715.png);
+     background-position: center;
+}
+
+div.bottom-image .show-img-div2{
+     margin: auto;
+     width: 90%;
+     height: 80vh;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-image:url(../../images/marker_panorama/20181215_173901715.png);
+     background-position: center;
+}
+
+div.start_exp{
+     width: 70%;
+     height: 100%;
+     margin: auto;
+     text-align: center;
+     color: #fff;
+}
+
+h1.main_title{
+     margin-top: 20%;
+     font-size: 3.75rem;
+     font-weight: 600;
+}
+
+h3.sub_title{
+     margin-top: 20px;
+     font-size: 1.75rem;
+     font-weight: 400;
+}
+
+button.ba-start{
+     margin-top: 25px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    height: 45px;
+    color: #fff;
+    border: 1px solid #56c6c6;
+    background: #0000;
+    border-radius: 20px;
+    font-size: 1.15rem;
+    width: 130px;
+}
+
+.over_div { 
+     position:absolute; 
+     width:624px; 
+     height:430px; 
+     background-color: rgba(45, 49, 53, 0.7);
+     text-align:center; 
+}
+
+.over_div2 { 
+     padding-bottom: 30px;
+     padding-top: 30px;
+     text-align:center; 
+}
+
+.right_div{
+     vertical-align: top;
+     margin: 0;
+     padding: 0;
+}
+
+.over_title{
+     padding-top: 16px;
+     font-weight: 550;
+     color: #fff;
+     font-size: 1.15rem;
+}
+
+.top-r{
+     margin-top: 12px;
+     background-color: rgba(45, 49, 53, 0.7);
+}
+
+.bottom-r{
+     height: 100vh;
+     margin-top: 12px;
+     background-color: rgba(45, 49, 53, 1.0);
+}
+
+.select_tooth_table{
+     
+}
+
+.select_tooth_table table{
+     margin: auto;
+     width:90%; 
+}
+
+.select_tooth_table table tr th.top{
+     color: #fff;
+     font-size: 0.75rem;
+     padding-bottom: 30px;
+     opacity: 0.8;
+}
+
+.select_tooth_table table tr th.top-red{
+     color: #f00;
+     font-size: 0.75rem;
+     padding-bottom: 30px;
+     opacity: 0.8;
+}
+
+.select_tooth_table table tr th.bottom{
+     color: #fff;
+     font-size: 0.75rem;
+     padding-top: 30px;
+     opacity: 0.8;
+}
+
+
+img.tooth{
+     width: 60%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     opacity: 0.5;
+}
+
+img.tooth:hover{
+     /* background-color: #f00; */
+     opacity: 1.0;
+}
+
+img.tooth_sel{
+     width: 60%;
+     padding-top: 10px;
+     padding-bottom: 10px;opacity: 1.0;
+}
+
+.btn-select{
+     margin-top: 30px;
+     border-radius: 20px;
+     height: 40px;
+     width: 130px;
+     font-weight: 600;
+     color: #fff;
+     background-color: #0000;
+     border: 1px solid #56c6c6;
+     font-size: 0.95rem;
+}
+
+.btn-select-t{
+     margin-top: 30px;
+     border-radius: 20px;
+     height: 40px;
+     width: 130px;
+     font-weight: 600;
+     color: #fff;
+     background-color: #56c6c6;
+     border: 1px solid #56c6c6;
+     font-size: 0.95rem;
+}
+
+.top-filter{
+     padding: 15px;
+     text-align: right;
+}
+
+.bottom-r-subtitle{
+     color: #fff;
+     font-weight: 500;
+     padding-top: 45px;
+     font-size: 1.35rem;
+     padding-left: 35px;
+}
+
+.img-list{
+     padding-top: 45px;
+     width: 100%;
+     margin: 0px auto;
+}

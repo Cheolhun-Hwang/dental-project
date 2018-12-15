@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental AI</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/upload.css">
+</head>
+
+<body>
+    <div class="wrapper">
+       <header>
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+                <div class="container"><a class="navbar-brand" href="#">
+                    <img class="logo" src="assets/img/logo.png"/>
+                </a>
+                <p class="logo_text">dental AI deep learning</p>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                </div>
+            </nav>
+       </header>
+       <main>
+           <form id='add1' class='addform' name='addguide' method="POST" action="/upload/add/" enctype="multipart/form-data"></form>
+                <div class="start_exp">
+                    <img class="upload_img" src="assets/img/upload.png"/>
+                    <h3 class="sub_title2">진단을 원하는 사진을 올려주세요</h3>
+
+                    <div class="upload_input row">
+                        <div class="input-group col-md-9">
+                            <input id="file_area" type="text" class="form-control" placeholder="">
+                            <span class="input-group-btn">
+                                <button onclick="fileUploadAction();" class="btn2">
+                                    <img class="file_upload_image" src="assets/img/file_upload.png" />
+                                </button>
+                                <input type="file" id="input_imgs" name='cimages'/>
+                            </span>
+                        </div><!-- /input-group -->
+                        <div class="col-md-3">
+                            <button id="uploadBTN" class="btn ba-sum ">Analyze</button>
+                        </div>
+                           
+                    </div>
+                </div>
+            </form>
+       </main>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/upload.js"></script>
+</body>
+
+</html>

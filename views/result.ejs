@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental AI</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/result.css">
+</head>
+
+<body>
+    <div class="wrapper">
+       <header>
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+                <div class="container"><a class="navbar-brand" href="#">
+                    <img class="logo" src="assets/img/logo.png"/>
+                </a>
+                <p class="logo_text">dental AI deep learning</p>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                        <!-- <ul class="nav navbar-nav mr-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">문제목록</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Q-Lists</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
+                        </ul><span class="navbar-text actions"> <a href="#" class="login">Log In</a><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></span></div> -->
+                </div>
+            </nav>
+       </header>
+       <main class="row full">
+           <div class="col-md-9">
+               <div class="top-filter">
+                    <button class="btn ba-start" role="button" onclick="onFilterClick();" >원본보기</button>
+               </div>
+               <div class="bottom-image">
+                    <div id="show-up" class="show-img-div"></div>
+               </div>
+           </div>
+
+           <div class="right_div col-md-3">
+                <div class="top-r">
+                    <div class="over_div2">
+                            <div class="select_tooth_table">
+                                <table>
+                                    <tr>
+                                        <th class="top">18</th>
+                                        <th class="top">17</th>
+                                        <th class="top-red">16</th>
+                                        <th class="top">15</th>
+                                        <th class="top-red">14</th>
+                                        <th class="top">13</th>
+                                        <th class="top">12</th>
+                                        <th class="top">11</th>
+                                        <th class="top">21</th>
+                                        <th class="top">22</th>
+                                        <th class="top">23</th>
+                                        <th class="top">24</th>
+                                        <th class="top">25</th>
+                                        <th class="top">26</th>
+                                        <th class="top">27</th>
+                                        <th class="top">28</th>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="tooth" value="18" src="assets/img/tooth/logo-07.png" onclick="onSelect(this);" /></td>
+                                        <td><img class="tooth" value="17" src="assets/img/tooth/logo-08.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="16" src="assets/img/tooth_select/red_tooth_16.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="15" src="assets/img/tooth/logo-10.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="14" src="assets/img/tooth_select/red_tooth_14.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="13" src="assets/img/tooth/logo-12.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="12" src="assets/img/tooth/logo-13.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="11" src="assets/img/tooth/logo-14.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="21" src="assets/img/tooth/logo-15.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="22" src="assets/img/tooth/logo-16.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="23" src="assets/img/tooth/logo-17.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="24" src="assets/img/tooth/logo-18.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="25" src="assets/img/tooth/logo-19.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="26" src="assets/img/tooth/logo-20.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="27" src="assets/img/tooth/logo-21.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="28" src="assets/img/tooth/logo-22.png" onclick="onSelect(this);"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="tooth" value="48" src="assets/img/tooth/logo-23.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="47" src="assets/img/tooth/logo-24.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="46" src="assets/img/tooth/logo-25.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="45" src="assets/img/tooth/logo-26.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="44" src="assets/img/tooth/logo-27.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="43" src="assets/img/tooth/logo-28.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="42" src="assets/img/tooth/logo-29.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="41" src="assets/img/tooth/logo-30.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="31" src="assets/img/tooth/logo-31.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="32" src="assets/img/tooth/logo-32.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="33" src="assets/img/tooth/logo-33.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="34" src="assets/img/tooth/logo-34.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="35" src="assets/img/tooth/logo-35.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="36" src="assets/img/tooth/logo-36.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="37" src="assets/img/tooth/logo-37.png" onclick="onSelect(this);"/></td>
+                                        <td><img class="tooth" value="38" src="assets/img/tooth/logo-38.png" onclick="onSelect(this);"/></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bottom">48</th>
+                                        <th class="bottom">47</th>
+                                        <th class="bottom">46</th>
+                                        <th class="bottom">45</th>
+                                        <th class="bottom">44</th>
+                                        <th class="bottom">43</th>
+                                        <th class="bottom">42</th>
+                                        <th class="bottom">41</th>
+                                        <th class="bottom">31</th>
+                                        <th class="bottom">32</th>
+                                        <th class="bottom">33</th>
+                                        <th class="bottom">34</th>
+                                        <th class="bottom">35</th>
+                                        <th class="bottom">36</th>
+                                        <th class="bottom">37</th>
+                                        <th class="bottom">38</th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+                <div class="bottom-r">
+                    <div class="bottom-r-list">
+                        <img class="img-list" src="assets/img/tooth_condition.png" />
+                    </div>
+                </div>
+           </div>
+       </main>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script>
+        window.onload = function () {
+            
+        }
+
+        function onFilterClick(){
+
+            if($("#show-up").hasClass('show-img-div')){
+                $("#show-up").removeClass('show-img-div');
+                $("#show-up").addClass('show-img-div2');
+            }else if($("#show-up").hasClass('show-img-div2')){
+                $("#show-up").removeClass('show-img-div2');
+                $("#show-up").addClass('show-img-div');
+            }
+        }
+    </script>
+</body>
+
+</html>
